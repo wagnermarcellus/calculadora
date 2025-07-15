@@ -1,0 +1,93 @@
+#tudo {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 38%;
+    margin-right: 38%;
+    background-color: rgba(0, 255, 255, 0.137);
+    backdrop-filter: blur(5px);
+    border-style: outset;
+}
+#tudo:hover {
+    background-color: rgba(0, 255, 255, 0.5);
+    box-shadow: 10px 10px 20px gray;
+    transform: scale(1.05);
+    transition: transform 0.1s ease;
+    transition: background-color 0.3s ease;
+}
+button {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px gray;
+}
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+    box-shadow: 5px 5px 10px darkblue;
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    transition: background-color 0.3s ease;
+}
+body {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+h1 {
+    text-align: center;
+    color: rgb(71, 67, 67);
+    font-family: 'Arial', sans-serif;
+}
+#igual {
+    width: 160px;
+}
+#igual:hover {
+    background-color: green;
+    color: white;
+}
+#visor {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 75%;
+    height: 75px;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border: 2px solid darkblue;
+    box-shadow: 3px 3px 5px gray;
+}
+#visor:hover {
+    width: 75%;
+    height: 75px;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+    box-shadow: 5px 5px 10px darkblue;
+    transform: scale(1.05);
+    transition: transform 0.1s ease;
+    transition: background-color 0.3s ease;
+}
+
+#line5 {
+    margin-bottom: 25px;
+}
